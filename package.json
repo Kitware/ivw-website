@@ -1,0 +1,33 @@
+{
+  "name": "ivw-website",
+  "version": "1.0.0",
+  "description": "website for ivw workshop",
+  "keywords": [
+    "ivw",
+    "visualization",
+    "workshop"
+  ],
+  "homepage": "https://github.com/Kitware/ivw-website#readme",
+  "bugs": {
+    "url": "https://github.com/Kitware/ivw-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitware/ivw-website.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Jaswant Panchumarti",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
