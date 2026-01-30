@@ -31,7 +31,7 @@ onUnmounted(() => {
 <template>
   <div :class="$style.examples" :style="{ transform: `translate(${55 - x * 10}vw, 50%)` }">
     <div v-for="(image, i) in thumbnails" :key="i" :class="$style.item">
-      <a target="_blank" :class="$style.link" :style="{
+      <a :class="$style.link" :href="`/ivw-website/examples/${image.replace('.jpg', '.html')}`" :style="{
         '--x': (i % xn) - xn / 2 + (Math.floor(i / xn) % 2) * 0.5,
         '--y': Math.floor(i / xn) - yn / 2,
       }">
