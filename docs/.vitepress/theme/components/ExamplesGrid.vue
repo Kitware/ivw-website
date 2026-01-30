@@ -30,11 +30,12 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div :class="$style.examples" :style="{ transform: `translate(${55 - x * 10}vw, 50%)` }">
+  <div class="examples-grid" :class="$style.examples" :style="{ transform: `translate(${55 - x * 10}vw, 50%)` }">
     <div v-for="(image, i) in thumbnails" :key="i" :class="$style.item">
       <a :class="$style.link" :href="`/ivw-website/examples/${image.replace('.jpg', '.html')}`" :style="{
         '--x': (i % xn) - xn / 2 + (Math.floor(i / xn) % 2) * 0.5,
         '--y': Math.floor(i / xn) - yn / 2,
+        '--delay': `${Math.random() * 2}s`
       }">
         <img :src="`/ivw-website/${image}`" width="480" height="300" alt="" />
       </a>
@@ -78,7 +79,7 @@ onUnmounted(() => {
   position: absolute;
   --transform: perspective(75em) rotateX(30deg) rotateZ(-2deg) translate(calc(var(--x) * 100%), calc(var(--y) * 86.67%)) scale(1.145);
   transform: var(--transform);
-  animation: drop-in 350ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s backwards;
+  animation: drop-in 350ms cubic-bezier(0.215, 0.61, 0.355, 1) var(--delay) backwards;
   transition: transform 250ms ease-out;
   clip-path: polygon(50% 100%, 93.3% 75%, 93.3% 25%, 50% 0%, 6.7% 25%, 6.7% 75%);
 }

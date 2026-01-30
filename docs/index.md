@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "IVW26"
   text: "Interactive Visual Workflows for Science and Engineering at Scale"
-  tagline: Connecting computation, data, AI, and visual interfaces for scalable discovery
+  tagline: Connecting HPC, AI, and data with visual interfaces for scalable discovery
   actions:
     - theme: brand
       text: Workshop Overview

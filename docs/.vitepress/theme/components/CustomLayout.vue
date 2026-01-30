@@ -9,7 +9,7 @@ const { Layout } = DefaultTheme;
 
 <template>
   <Layout>
-    <template #home-features-before>
+    <template #home-hero-before>
       <ExamplesGrid />
     </template>
   </Layout>
@@ -32,6 +32,40 @@ const { Layout } = DefaultTheme;
 
 .VPHome {
   overflow: hidden;
+}
+
+/* Position gallery over hero with more transparency */
+.VPHome .examples-grid {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 15 !important;
+  opacity: 0.4 !important;
+  height: 600px !important;
+}
+
+/* Ensure hero stays below gallery with stronger background */
+.VPHome .VPHero {
+  position: relative;
+  z-index: 5;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.98), rgba(255,255,255,0.95));
+  padding-bottom: 2rem;
+}
+
+.dark .VPHome .VPHero {
+  background: linear-gradient(to bottom, rgba(15,15,15,0.98), rgba(15,15,15,0.95));
+}
+
+/* Ensure features section appears below gallery */
+.VPHome .VPFeatures {
+  position: relative;
+  z-index: 20;
+  background: white;
+}
+
+.dark .VPHome .VPFeatures {
+  background: var(--vp-c-bg);
 }
 
 @media (min-width: 768px) {
