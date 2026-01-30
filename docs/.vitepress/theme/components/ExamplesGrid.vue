@@ -4,7 +4,8 @@ import { ref, onMounted, onUnmounted } from "vue";
 let pointerframe;
 let clientX;
 
-const thumbnails = Array.from({ length: 16 }, (_, i) => `image_${i + 1}.jpg`);
+// Automatically generate thumbnails for all available images
+const thumbnails = Array.from({ length: 50 }, (_, i) => `image_${i + 1}.jpg`);
 const xn = ref(6); // number of columns
 const yn = ref(5); // number of rows
 const x = ref(0.5); // normalized horizontal pointer position
@@ -31,7 +32,7 @@ onUnmounted(() => {
 <template>
   <div :class="$style.examples" :style="{ transform: `translate(${55 - x * 10}vw, 50%)` }">
     <div v-for="(image, i) in thumbnails" :key="i" :class="$style.item">
-      <a target="_blank" :class="$style.link" :style="{
+      <a :class="$style.link" :href="`/ivw-website/examples/${image.replace('.jpg', '.html')}`" :style="{
         '--x': (i % xn) - xn / 2 + (Math.floor(i / xn) % 2) * 0.5,
         '--y': Math.floor(i / xn) - yn / 2,
       }">
