@@ -1,11 +1,11 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import { IMAGE_COUNT } from '../../../config.js';
 
 let pointerframe;
 let clientX;
 
-// Automatically generate thumbnails for all available images
-const thumbnails = Array.from({ length: 50 }, (_, i) => `image_${i + 1}.jpg`);
+const thumbnails = Array.from({ length: IMAGE_COUNT }, (_, i) => `image_${i + 1}.jpg`);
 const xn = ref(6); // number of columns
 const yn = ref(5); // number of rows
 const x = ref(0.5); // normalized horizontal pointer position
