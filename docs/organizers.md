@@ -5,7 +5,8 @@
 - **Francesca Samsel** – Texas Advanced Computing Center, USA  
 - **Silvio Rizzi** – Argonne National Laboratory, USA  
 - **Axel Huebl** – Lawrence Berkeley National Laboratory, USA  
-- **Jefferson Amstutz** – NVIDIA  
+- **Jefferson Amstutz** – NVIDIA, USA
+- **Matthew Larsen** - Luminary Cloud, USA
 - **Berk Geveci** – Kitware, Inc., USA
 
 ## Program Committee
