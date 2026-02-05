@@ -53,7 +53,7 @@ The short, rigorously reviewed paper formats, both **four-page and two-page**, *
 
 | Time          | Session                                      | Details                                                                                                        |
 |---------------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 08:30–08:45   | Opening | Keynote plus 5 oral lightning presentations                                                                   |
+| 08:30–08:45   | Opening |   |
 | 08:45–09:45   | Session 1: Papers Session I                  | Oral presentations                                                                                    |
 | 09:45–10:00   | Session 2: Tool, platform, and application demonstrations I|  |
 | 10:00–10:30   | Break                                        | —                                                                                                             |
