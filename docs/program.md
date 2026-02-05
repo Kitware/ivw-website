@@ -1,20 +1,28 @@
 # Workshop Program
 
-## Format
+| Time          | Session                                      | Details                                                                                                        |
+|---------------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| 08:30–08:45   | Opening | Keynote plus 5 oral lightning presentations                                                                   |
+| 08:45–09:45   | Session 1: Papers Session I                  | Oral presentations                                                                                    |
+| 09:45–10:00   | Session 2: Tool, platform, and application demonstrations I|  |
+| 10:00–10:30   | Break                                        | —                                                                                                             |
+| 10:30–11:15   | Session 2: Tool, platform, and application demonstrations I|   |
+| 11:15–12:00   | Session 3: Lightning presentations I         | Oral presentations                                                                                    |
+| 12:00–13:30   | Lunch Break                                  | —                                                                                                             |
+| 13:30–14:15   | Session 4: Lightning presentations II         | Oral presentations                                                                                    |    
+| 14:15–15:00   | Session 5: Tool, platform, and application demonstrations II|  |
+| 15:00–15:30   | Break                                        | —         
+| 15:30–15:45   | Session 5: Tool, platform, and application demonstrations II|  |
+| 15:45–16:30   | Session 6: Papers Session II                  | Oral presentations                                                                                    |
+| 16:30–17:00   | Closing “talk show”-discussion        |   |
 
-| Time | Session | Details |
-|--|--|--|
-| 08:30–10:00 | **Session 1**: Keynote & Lightning Presentations I | Keynote plus 5 oral lightning presentations|
-| 10:00–10:30 | Break | — |
-| 10:30–12:00 | **Session 2**: Papers Session I | 5 oral paper presentations |
-| 12:00–13:30 | Lunch Break | — |
-| 13:30–15:00 | **Session 3**: Lightning Presentations II & Papers Session II | 5 lightning presentations and 5 paper presentations |
-| 15:00–15:30 | Break | — |
-| 15:30–17:00 | **Session 4**: Panel & Closing Discussion | "Talk show" panel with host and guests (domain and computational scientists, data scientists, RSEs), plus audience interaction |
 
-## Proceedings and Community Report
+## Artifacts: Proceedings and Community Report
 
-We will produce a high-quality proceedings volume of peer-reviewed contributions and make it openly available in a repository that assigns citable, persistent identifiers (e.g., DOIs). In support of the Interactive Visual Workflows workshop Ideation goal, we will also create a community "state of the field and call to action" report that synthesizes participant input and discussion into a shared view of the emerging sub-field, its community and workforce needs, and the key research and practice priorities.
+Expected outcomes include individual technical contributions in the form of DOI-backed artifacts and a community-level synthesis that can inform future SC workshops, funding strategies, and coordination across institutions and disciplines. We plan to publish proceedings and treat artifacts as first-class outputs. Peer-reviewed contributions, including four-page and two-page papers, slide decks, application and workflow descriptions, and selected images, will be curated on the IVW website and archived in a dedicated Zenodo (https://zenodo.org/) community, where each item will receive a persistent, citable DOI. This combination gives contributors a stable reference for their work while keeping the workshop website as the primary, human-friendly entry point.
+
+In support of the workshop’s ideation goals, we will also develop a community-edited “state of the field, opportunities, and challenges” report, hosted and iterated through the IVW website and archived alongside the proceedings in Zenodo. This report will synthesize participant input and discussion into a shared view of the emerging sub-field, its community and workforce needs, and key research and practice priorities, serving both as a snapshot of the current landscape and a roadmap for future work.
+
 
 ## Advertising and Engagement
 
