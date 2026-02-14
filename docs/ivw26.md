@@ -5,6 +5,8 @@ Francesca Samsel (TACC), Silvio Rizzi (ANL), Axel Huebl (LBNL), Jefferson Amstut
 
 **Keywords:** interactive visual workflows, high-performance computing (HPC), scientific visualization, AI-augmented analysis, simulation and experimentation, in situ and streaming workflows, data management and orchestration, usability and UX
 
+![](examples/ivw26.png)
+
 ## Abstract
 
 Researchers, practitioners, and tool builders come together in this workshop to reshape how we perform science and engineering by using interactive visual workflows as core instruments of discovery. Interactive visual workflows tightly couple computation, experimentation, AI, data, and rich visual interfaces, with **visualization as the central feature at each step** to support visual steering and inspection, deeper analysis, and more transparent communication. They directly tackle a growing bottleneck for SC attendees: teams spend so much time designing simulation and experiment campaigns, then analyzing and visualizing results, that this work increasingly dominates the path from project start to discovery and can even outlast available compute time. IVW highlights concrete approaches that shorten this design and analysis loop, often to days or the runtime of the computation itself, and showcases workflows that make complex pipelines understandable and actionable through focused papers, lightning contributions, and hands-on demonstrations.
