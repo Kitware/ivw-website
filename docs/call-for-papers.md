@@ -35,6 +35,7 @@ For the Interactive Visual Workflows workshop, we align with SC's [Reproducibili
 ## Important Dates
 
 - **Mid-August 2026** – Paper submission deadline  
-- **Mid-September 2026** – Author notification  
+- **Mid-September 2026** – Author notification
+- **August-October 2026** - Demonstration submissions  
 - **Mid-October 2026** – Program posted to workshop website  
 - **Week of SC26** – IVW workshop
