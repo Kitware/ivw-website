@@ -7,7 +7,7 @@ Francesca Samsel (TACC), Silvio Rizzi (ANL), Axel Huebl (LBNL), Jefferson Amstut
 
 ![](examples/ivw26.png)
 
-<center>Parsli - Fault System Kinematics Viewer</center>
+<div align="center">Parsli - Fault System Kinematics Viewer</div>
 
 ## Abstract
 
